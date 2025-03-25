@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg,rgb(19, 74, 133), #fad0c4);
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.currency-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.currency-box {
+    width: 45%;
+}
+
+.select-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.select-wrapper img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+select {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.swap-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.swap-btn:hover {
+    transform: rotate(180deg);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background:rgb(25, 110, 194);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background:rgb(116, 167, 239);
+}
+
+.result {
+    margin-top: 1.5rem;
+}
+
+.result h3 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+#converted-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #222;
+}
